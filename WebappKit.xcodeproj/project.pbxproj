@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		961DF82B1BE429DE00329C9F /* WebappKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 961DF82A1BE429DE00329C9F /* WebappKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961DF8341BE429F800329C9F /* WebappClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 961DF8321BE429F800329C9F /* WebappClient.h */; };
+		961DF8351BE429F800329C9F /* WebappClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DF8331BE429F800329C9F /* WebappClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		961DF8271BE429DE00329C9F /* WebappKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebappKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		961DF82A1BE429DE00329C9F /* WebappKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebappKit.h; sourceTree = "<group>"; };
 		961DF82C1BE429DE00329C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961DF8321BE429F800329C9F /* WebappClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebappClient.h; sourceTree = "<group>"; };
+		961DF8331BE429F800329C9F /* WebappClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebappClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				961DF82A1BE429DE00329C9F /* WebappKit.h */,
 				961DF82C1BE429DE00329C9F /* Info.plist */,
+				961DF8321BE429F800329C9F /* WebappClient.h */,
+				961DF8331BE429F800329C9F /* WebappClient.m */,
 			);
 			path = WebappKit;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961DF8341BE429F800329C9F /* WebappClient.h in Headers */,
 				961DF82B1BE429DE00329C9F /* WebappKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961DF8351BE429F800329C9F /* WebappClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
