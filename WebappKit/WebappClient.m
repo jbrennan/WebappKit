@@ -63,4 +63,11 @@ NSString * const WebappAPISecret = @"WebappAPISecret";
 	
 }
 
+
+- (BOOL)needsToLogIn {
+	return ![[NSUserDefaults standardUserDefaults] boolForKey:WebappAuthToken] || ![[NSUserDefaults standardUserDefaults] boolForKey:WebappAPISecret];
+}
+
+
+
 @end

@@ -28,4 +28,7 @@ typedef void(^WebappClientLoginCompletion)(NSString *authToken, NSString *apiSec
 /** Synchronously logs in to the server. The email and password are not stored, but the API secret returned is stored. */
 - (void)syncronouslyLogInWithEmail:(NSString *)email password:(NSString *)password completion:(WebappClientLoginCompletion)completion;
 
+/** Returns if the user needs to log in. */
+- (BOOL)needsToLogIn;
+
 @end
