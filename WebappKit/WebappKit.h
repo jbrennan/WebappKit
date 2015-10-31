@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char WebappKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WebappKit/PublicHeader.h>
 
-
+#import <WebappKit/WebappClient.h>

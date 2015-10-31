@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		961DF82B1BE429DE00329C9F /* WebappKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 961DF82A1BE429DE00329C9F /* WebappKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		961DF8341BE429F800329C9F /* WebappClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 961DF8321BE429F800329C9F /* WebappClient.h */; };
+		961DF8341BE429F800329C9F /* WebappClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 961DF8321BE429F800329C9F /* WebappClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		961DF8351BE429F800329C9F /* WebappClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DF8331BE429F800329C9F /* WebappClient.m */; };
 /* End PBXBuildFile section */
 
@@ -284,6 +284,7 @@
 				961DF8311BE429DE00329C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
